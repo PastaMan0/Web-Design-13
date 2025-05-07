@@ -1,0 +1,55 @@
+/* First Letter */
+
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+    color: red;
+}
+
+/* First Line */
+
+p::first-line{
+    background-color: yellow;
+}
+
+/* Selection Highlight */
+
+p::selection{
+    color: green;
+    background-color: darkgray;
+}
+
+/* Before and After */
+
+li::before{
+    content: ✔️;
+    color: green;
+}
+
+#apple::after{
+    content: 🍏;
+}
+
+#orange::after{
+    content: 🍊;
+}
+
+#banana::after{
+    
+    content: 🍌;
+
+}
+
+/* List Marker */
+
+li::marker{
+    content: ✔️;
+    color: green;
+    font-size: 1.2em;
+}
+
+#footer{
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
